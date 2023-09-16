@@ -1,0 +1,6 @@
+f=open('xx.txt','r')
+data=f.read()
+data=data.replace('-','x')
+data=data.replace('+','x')
+data=data.replace('|','x')
+print(data)
